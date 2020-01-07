@@ -1,0 +1,148 @@
+#main-body{
+    margin: 0;
+}
+#header-body h1{
+    text-align: center;
+    color: green;
+    background: white url("https://acegif.com/wp-content/gifs/water-30.gif") scroll no-repeat bottom;
+    background-size: cover;
+    padding: 10px;
+    margin: 0;
+}
+
+
+#MAIN-topbar{  
+    position: relative;
+    background-color:royalblue;
+    overflow: hidden;
+}
+
+#MAIN-topbar ul {
+    
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    
+}
+#MAIN-topbar ul li {
+    float: left;
+    padding: 15px;
+        
+}
+#MAIN-topbar ul li a{
+    text-decoration: none;
+    display: inline block;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: black;
+    
+}
+nav ul li:hover{
+    background-color: white;
+    border-radius: 16px;
+    margin: 5px;
+    
+}
+details summary:hover{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 16px;
+}
+h4{
+    
+  float:right;
+  padding-right: 50px;
+  padding-top: 0;
+}
+h4:hover{
+    padding-right: 51px;
+
+
+}
+img{
+   
+    width: 30px;
+    padding-right: 20px;
+    float: right;
+    padding-top: 10px;
+    
+}
+
+
+/*
+#MAIN-sidebar{
+    float: left;
+    padding: 5px;
+    background-color:royalblue;
+    margin: 0px;
+    width: 200px;
+}
+#MAIN-sidebar ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 5px;
+    background-color:royalblue;
+}
+#MAIN-sidebar ul li a{
+   text-decoration: none;
+   padding: 10px;
+   display: block;
+}
+*/
+
+details summary::-webkit-details-marker {
+        display:none;
+        
+}
+details summary{
+   
+    width: 180px;
+    text-align: center; 
+    outline: none;
+}
+details  div aside ul li {
+    
+    width: 150px;
+   text-align: center;
+   
+
+}
+li a {
+   text-align: center; 
+}   
+section {
+    background-color: royalblue;
+    overflow: hidden;
+    margin-top: 2px;
+}
+section article{
+    background-color: deepskyblue ;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 5px;
+}
+
+h2{
+    padding: 5px;
+}
+h3{
+    padding: 10px;
+}
+footer{
+    background-color: royalblue;
+    padding: 5px;
+    margin-top: 1px;
+    
+}
+footer p{
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 16px;
+
+}
+
+address{
+    background-color: deepskyblue;
+    padding: 5px;
+    border-radius: 16px;
+}
